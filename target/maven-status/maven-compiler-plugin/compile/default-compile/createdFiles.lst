@@ -1,0 +1,3 @@
+QRcodeGenerater\QRcodeGeneraterApplication.class
+QRcodeGenerater\Controller\QrGenerateController.class
+QRcodeGenerater\Service\QrGenerateService.class
