@@ -12,7 +12,7 @@ import java.io.IOException;
 
 @RestController
 @RequestMapping("/qr-code")
-@CrossOrigin(origins = "http://localhost:4200")
+@CrossOrigin(origins = "https://qr-code-generator-fontend.vercel.app/")
 public class QrGenerateController {
 
     @Autowired
