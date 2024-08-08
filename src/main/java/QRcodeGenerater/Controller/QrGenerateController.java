@@ -2,7 +2,6 @@ package QRcodeGenerater.Controller;
 
 import QRcodeGenerater.Service.QrGenerateService;
 import com.google.zxing.WriterException;
-import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.MediaType;
 import org.springframework.http.ResponseEntity;
@@ -12,7 +11,7 @@ import java.io.IOException;
 
 @RestController
 @RequestMapping("/qr-code")
-@CrossOrigin(origins = "https://qr-code-generator-fontend.vercel.app/")
+@CrossOrigin(origins = "https://www.stylesphere.tech")
 public class QrGenerateController {
 
     @Autowired
