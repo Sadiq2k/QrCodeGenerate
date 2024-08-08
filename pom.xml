@@ -74,6 +74,9 @@
 				</configuration>
 			</plugin>
 		</plugins>
+		<finalName>
+			qrcodegenerator
+		</finalName>
 	</build>
 
 </project>
