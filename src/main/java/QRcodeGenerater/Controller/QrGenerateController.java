@@ -10,14 +10,13 @@ import org.springframework.web.bind.annotation.*;
 import java.io.IOException;
 
 @RestController
-@RequestMapping("/qr-code")
 @CrossOrigin(origins = "https://www.stylesphere.tech")
 public class QrGenerateController {
 
     @Autowired
     private QrGenerateService generateQRCode;
 
-    @PostMapping(value = "/generate", produces = MediaType.IMAGE_PNG_VALUE)
+    @PostMapping(value = "/qr-code/generate", produces = MediaType.IMAGE_PNG_VALUE)
     public ResponseEntity<byte[]> generateQRCode(@RequestParam String message) throws IOException, WriterException {
         return generateQRCode.generateQRCode(message);
     }
