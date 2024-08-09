@@ -12,7 +12,7 @@ import java.io.IOException;
 
 @RestController
 @RequestMapping("/qr-code")
-@CrossOrigin(origins = "http://www.stylesphere.tech")
+//@CrossOrigin(origins = "http://www.stylesphere.tech")
 public class QrGenerateController {
 
     @Autowired
